@@ -1,0 +1,14 @@
+[
+    {
+        "task": "running",
+        "completed": false
+    },
+    {
+        "task": "cooking",
+        "completed": true
+    },
+    {
+        "task": "swimming",
+        "completed": true
+    }
+]
