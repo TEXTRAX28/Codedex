@@ -15,12 +15,12 @@ if __name__ == '__main__':
     distances = {
         "New York": estimate_distance(my_location, friend_1),
         "Tokyo": estimate_distance(my_location, friend_2),
-        "Sydney": estimate_distance(my_location, friend_2)
+        "Sydney": estimate_distance(my_location, friend_3)
     }
 
     furthest_distance = max(distances, key= distances.get)
 
-    print(f"The furthest distance from me is {distances}, with an estimated distance of {distances[furthest_distance]}")
+    print(f"The furthest distance from me is {furthest_distance}, with an estimated distance of {distances[furthest_distance]}")
 
 
 
