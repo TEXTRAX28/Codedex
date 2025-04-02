@@ -18,17 +18,10 @@ if __name__ == '__main__':
         "Sydney": estimate_distance(my_location, friend_3)
     }
 
-    furthest_distance = max(distances, key= distances.get)
+    furthest_distance = max(distances, key=distances.get) #this gets the right side of the dictionary and count them
+    test_furthest_distance = max(distances)  #this only count the highest alphabetically since t in tokyo is the highest alphabetically it will print tokyo
+    print(test_furthest_distance)
 
     print(f"The furthest distance from me is {furthest_distance}, with an estimated distance of {distances[furthest_distance]}")
-
-
-
-
-
-
-
-
-
 
 
