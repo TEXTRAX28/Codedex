@@ -1,9 +1,9 @@
-# dictionary definition of the word 'key'
-laptop = {
-  'brand': 'Apple',
-  'model': 'Macbook Pro',
-  'size': 14,
-  'year': 2023,
+artifact = {
+    "artist": "Vincent van Gogh",
+    "period": "Post-Impressionism",
+    "date": 1889
 }
 
-print(laptop)
+print(f"Artifact details: {artifact}")
+print(f"Keys of artifact: {artifact.keys()}")
+print(f"Values of artifact: {artifact.values()}")
